@@ -1,3 +1,3 @@
 I'm so done with school
 But I still have so much left :(
-Oh well
+Oh well, such is the way of student life
