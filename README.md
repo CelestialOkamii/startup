@@ -9,7 +9,7 @@ Have your parents, in-laws, or other family members ever gotten on you about how
 ![Login Page Screen Layour Rough Draft](<Ducks in a Row Homempage.jpg>)
 ![Duck by Login Reference Image](<Duck Login Reference Image.png>)
 ![Ducks floating across homescreen reference image](<Homescreen Ducks.png>)
-![Past creations/received ducks page](<Past Creations and Sent and Received Ducks-1.jpg>)
+![Past creations/received ducks page](<Past Creations and Sent and Received Ducks-2.jpg>)
 
 ## Techonologies
 - **HTML:** Correctly uses HTML structure in Website. Three pages.
