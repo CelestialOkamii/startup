@@ -11,6 +11,12 @@ Have your parents, in-laws, or other family members ever gotten on you about how
 ![Login Page Screen Layour Rough Draft](<Ducks in a Row Homempage-1.jpg>)
 ![Past creations/received ducks page](<Past Creations and Sent and Received Ducks 20.jpg>)
 
+## Key Features
+- Secure login through Stytch
+- Full customization of ducks
+- Ability to showcase favorite ducks to other users
+- Past saved ducks are stored
+
 ## Techonologies
 - **HTML:** Correctly uses HTML structure in Website. Three pages.
   1. Login
