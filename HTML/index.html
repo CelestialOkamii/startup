@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-       <title>Ducks In a Row</title> 
+       <title>Ducks In a Row Homepage</title> 
     </head>
     <body>
         <h1>Login:</h1>
-        <ol>
-            <li>
-                <label for="text">
-                Username: 
-            </label>
-            <input type="text" id="text"
-            name="varUsername" placeholder="Input Username Here"
-            required pattern="[Aa].*" />
-            </li>
-            <li>
-                <label for="text">
-                Password: 
-            </label>
-            <input type="text" id="text"
-            name="varPassword" placeholder="Input Password Here"
-            required pattern="[Aa].*" />
-            </li>
-        </ol>
+            <form>
+                <div>
+                    <label for="text">
+                        Username: 
+                        </label>
+                        <input type="text" id="text"
+                    name="varUsername" placeholder="Username Here"
+                    required pattern="[Aa].*" />
+                </div>
+                <div>
+                    <label for="text">
+                        Password: 
+                        </label>
+                        <input type="text" id="text"
+                    name="varPassword" placeholder="Password Here"
+                    required pattern="[Aa].*" />
+                </div>
+                <div>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
     </body>
