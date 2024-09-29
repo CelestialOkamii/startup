@@ -22,11 +22,20 @@ Have your parents, in-laws, or other family members ever gotten on you about how
   1. Login
   2. Homepage with past ducks in a row and place to view received duck rows/send duck rows
   3. Ducks in Row customization page
+  4. Using Random Useless Facts for customization page.
 - **CSS:** Vibrant application that adjusts well to a vaviety of screen sizes. Background of soft pastels with ducks and items suck as login and links to other pages being the vibrant pops of color to draw the eye.
 - **React:** Uses a login, interactive duck design on certain pages, and updates concerning sent and received ducks in a row.
-- **Services and Login:** Retreiving user login info, past duck creations, sent/received ducks, and customization choices. Using Stytch for login and  authentication.
+- **Services and Login:** Retreiving user login info, past duck creations, sent/received ducks, and customization choices.
 - **Database:** Will store users, past user creations, and duck customization options. 
 - **WebSocket:** Sent and received ducks are shown in real time.
+
+## HTML 
+- [x] **HTML pages** - Four HTML pages that allow the user to login, view their own and other ducks, create new ducks, or send ducks to friends.
+- [x] **Links** - The Login page links to the home page after clicking Login. The home page links to the duck customization page and send ducks page through buttons. There is also a link at the bottom of the login page that links to my Git repository and a button on the customization page that will link to a 3rd party that will provide a random fact.
+- [x] **Text** - There is text that indicates where the user should type information on the login, customize ducks, and send ducks pages. In addition, there is a button that will generate text containing a random fact and attribution to the creater of the images used on every page.
+- [X] **Images** - I have non moving temporarily uncustomizable images on every page as placeholders for when I can make them interactive.
+- [x] **DB/Login** - I have input boxes for the user to put their username and password and a button to log them in. The database is represented by the select drop down menus that will store customization options, names of past creations, and friends names.
+- [x] **WebSocket** - The Across the Pond duck pond is a placeholder for a non static image that will show ducks being sent to you by friends.
 
 ### Creator Notes
 Click [notes](https://github.com/CelestialOkamii/startup/blob/main/notes.md) to go to CS 260 notes.
