@@ -9,19 +9,29 @@
                 Who are we sending reinforcements to?
             </h3>
             <form method="get" action="home.html">
+                <label for="select"><h4>Friends List</h4></label>
+                <select id="select" name="varSelect">
+                    <option>DuckLord</option>
+                    <option selected>MelonLordsArmy</option>
+                    <option>GrandpaGreg</option>
+                </select>
                 <div>
-                <label for="text">
-                    Username: 
-                    </label>
-                    <input type="text" placeholder="Username Here" />
-                </div>
-                <label for="select">Which platoon are we sending? </label>
+                <label for="text"><h4>Add a New Friend:</h4></label>
+                    <div>
+                        <input type="text" placeholder="Username Here" /></div>
+                    </div>
+                    <div>
+                        <button type="submit">Add New Friend</button>
+                    </div>
+                <label for="select"><h4>Which platoon are we sending?</h4></label>
                 <select id="select" name="varSelect">
                     <option>The Debuggers</option>
                     <option selected>Last Friday Night's Good Decisions</option>
                     <option>Thanksgiving's Survivors</option>
                 </select>
-                <img alt="Last Friday Night's Good Decisions" src="../Last Friday Night's Good Decisions.png">
+                <div>
+                    <img alt="Last Friday Night's Good Decisions" src="../Last Friday Night's Good Decisions.png">
+                </div>
                 <div>
                     <button type="submit">Send Reinforcements</button>
                 </div>
