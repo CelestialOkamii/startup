@@ -13,7 +13,7 @@
 - can delete things by going to the file clicking the ..., clicking delete, and commiting the delete
 
 ## Website Instance
-- to get to server via gitbash do ssh -i ~/keys/Wroking.pem ubuntu@98.83.44.2
+- to get to server via gitbash do ssh -i ~/keys/Working.pem ubuntu@98.83.44.2
 - to get to website do http://98.83.44.2
 - instance has elastic ip which will keep ip the same even if instance is stoped or restarted
 
