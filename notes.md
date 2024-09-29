@@ -9,9 +9,19 @@
 - After making changes to a repository should commit and leave a note as to why it was changed or what was changed
 - to clone a repository do `git clone "repository name"`
 - read.me is where the description of the repository is
+- can make folders
+- can delete things by going to the file clicking the ..., clicking delete, and commiting the delete
 
 ## Website Instance
 - to get to server via gitbash do ssh -i ~/keys/Wroking.pem ubuntu@98.83.44.2
 - to get to website do http://98.83.44.2
 - instance has elastic ip which will keep ip the same even if instance is stoped or restarted
+
+## HTML
+- `for=` and `id=` must be the same for form elements that go together
+- `<hr>` seperates with a line
+- if want things like labels or images to be on the same line as each other use `<div>`
+- `<select>` is the one for drop down menus and `<option>` goes in it to give options for the drop down
+- `<option selected></option>` makes whatever is in that option no matter where it is in the list the thing that will automaticallgy be selected in the `<select>` box when the page loads
+- for `<img>` is easier to use with images committed to github and then using relative paths to get to where image is stored as opposed to trying to figure out doing it from being saved on my computer
 
