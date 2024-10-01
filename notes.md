@@ -13,8 +13,8 @@
 - can delete things by going to the file clicking the ..., clicking delete, and commiting the delete
 
 ## Website Instance
-- to get to server via gitbash do ssh -i ~/keys/Working.pem ubuntu@44.196.36.213
-- to get to website do http://44.196.36.213
+- to get to server via gitbash do ssh -i ~/keys/Ducks.pem ubuntu@100.28.180.1
+- to get to website do http://100.28.180.1
 - instance has elastic ip which will keep ip the same even if instance is stoped or restarted
 
 ## HTML
