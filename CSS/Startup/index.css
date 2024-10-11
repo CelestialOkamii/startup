@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    background: #0a72fa;
+  }
+  html {
+    height: 100%;
+  }
+  img:first-child {
+    max-height: ;
+  }
+  header {
+    font-size: 25px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: right;
+    justify-content: center;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  main {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  p:first-child {
+    font-size: 15px;
+    align-self: left;
+  }
+
+  footer {
+    color: white;
+    display: flex;
+    flex: 0 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
