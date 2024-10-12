@@ -3,7 +3,8 @@
 
 * {
     box-sizing: border-box;
-    background: #0a72fa;
+    margin: 0px;
+    padding: 0px;
   }
 
   html {
@@ -13,31 +14,55 @@
   img:first-child {
     max-height: 89px;
     max-width: 149px;
-  }
-
-  h3 {
-    font-size: 30px;
-    padding-top: 0.5%;
+    position: absolute;
+    left: 0;
   }
 
   form {
     padding-top: 15px;
     font-size: 20px;
     top: 1;
+    margin-top: 0px;
   }
 
+div {
+  margin: 2px;
+}
+
+input {
+    border: 0.5px solid black;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #87b5ff;
+    font-size: 20px;
+}
+
   input::placeholder {
-    background: white;
+    color: white;
+    font-family: 'Annie Use Your Telescope';
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  button {
+    border-radius: 20px;
+    font-family: 'Annie Use Your Telescope';
+    color: white;
+    border: 0.5px solid black;
+    font-size: 20px;
+    width: 50px;
+    background-color: #87b5ff;
   }
 
   header {
-    font-family: 'Unkempt';
+    font-family: 'Annie Use Your Telescope';
     color: white;
     display: flex;
-    flex: 1;
+    flex: 0.5; 
     flex-direction: row;
-    align-items: right;
     justify-content: right;
+    position: relative;
+    background-color: #16014d;
   }
 
   body {
@@ -45,6 +70,7 @@
     flex-direction: column;
     height: 100%;
     font-family: 'Unkempt';
+    background: #0a72fa;
   }
 
   main {
