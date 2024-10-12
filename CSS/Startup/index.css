@@ -1,25 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Homemade+Apple&family=Lavishly+Yours&family=Love+Ya+Like+A+Sister&family=Nothing+You+Could+Do&family=Splash&family=Unkempt:wght@400;700&display=swap');
+
+
 * {
     box-sizing: border-box;
     background: #0a72fa;
   }
+
   html {
     height: 100%;
   }
+
   img:first-child {
-    max-height: ;
+    max-height: 89px;
+    max-width: 149px;
   }
+
+  h3 {
+    font-size: 30px;
+    padding-top: 0.5%;
+  }
+
+  form {
+    padding-top: 15px;
+    font-size: 20px;
+    top: 1;
+  }
+
+  input::placeholder {
+    background: white;
+  }
+
   header {
-    font-size: 25px;
+    font-family: 'Unkempt';
+    color: white;
     display: flex;
     flex: 1;
     flex-direction: row;
     align-items: right;
-    justify-content: center;
+    justify-content: right;
   }
+
   body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: 'Unkempt';
   }
 
   main {
@@ -31,6 +56,7 @@
     align-items: center;
     justify-content: center;
   }
+
   p:first-child {
     font-size: 15px;
     align-self: left;
