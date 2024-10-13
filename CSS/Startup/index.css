@@ -7,26 +7,26 @@
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 img:first-child {
-    max-height: 89px;
-    max-width: 149px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 0px;
+  max-height: 89px;
+  max-width: 149px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px;
 }
 
 form {
-    padding-top: 15px;
-    flex: 0.1;
-    font-size: 20px;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  padding-top: 15px;
+  flex: 0.1;
+  font-size: 20px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 form div,
@@ -48,75 +48,88 @@ label {
 }
 
 input {
-    border: 0.5px solid black;
-    width: 150px;
-    border-radius: 10px;
-    background-color: #87b5ff;
-    font-size: 20px;
-    margin: 0;
+  border: 0.5px solid black;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #87b5ff;
+  font-size: 20px;
+  margin: 0;
 }
 
 input::placeholder {
-    color: white;
-    font-family: 'Annie Use Your Telescope';
-    border-radius: 10px;
-    text-align: center;
+  color: #dee8fa;
+  font-family: 'Annie Use Your Telescope';
+  border-radius: 10px;
+  text-align: center;
 }
 
 button {
-    border-radius: 20px;
-    font-family: 'Annie Use Your Telescope';
-    color: white;
-    border: 0.5px solid black;
-    font-size: 20px;
-    width: 100px;
-    background-color: #87b5ff;
-    margin: 0px 0;
-    text-align: center;
+  border-radius: 20px;
+  font-family: 'Annie Use Your Telescope';
+  color: white;
+  border: 0.5px solid black;
+  font-size: 20px;
+  width: 100px;
+  background-color: #87b5ff;
+  margin: 0px 0;
+  text-align: center;
 }
 
 header {
-    font-family: 'Annie Use Your Telescope';
-    color: white;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding-bottom: 2%;
-    background-color: #16014d;
+  font-family: 'Annie Use Your Telescope';
+  color: white;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 2%;
+  background-color: #16014d;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    font-family: 'Unkempt';
-    background: #0a72fa;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: 'Unkempt';
+  background: #0a72fa;
+  margin: 0;
 }
 
 main {
-    color: white;
-    font-size: 50px;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 p:first-child {
-    font-size: 15px;
-    display: flex;
-    align-self: left;
-    justify-content: flex-start;
+  font-size: 15px;
+  align-self: left;
+  width: 250px;
+  margin-right: 10px;
+}
+
+p:nth-child(2) {
+  align-content: right;
+  justify-content: flex-end;
+}
+
+a {
+  color: aqua;
+  align-content: flex-start;
 }
 
 footer {
   font-family: 'Annie Use Your Telescope';
-    color: white;
-    display: flex;
-    flex: 0 50px;
-    flex-direction: row;
-    justify-content: space-between;
+  color: white;
+  display: flex;
+  flex: 0.1;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #16014d;
 }
