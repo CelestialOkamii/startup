@@ -107,19 +107,27 @@ main {
 
 p:first-child {
   font-size: 15px;
-  align-self: left;
+  align-content: flex-start;
   width: 250px;
-  margin-right: 10px;
 }
 
-p:nth-child(2) {
-  align-content: right;
-  justify-content: flex-end;
+#credit {
+  right: 0;
+  margin: 0;
+  position: absolute;
+  flex: 0.1;
+}
+
+#link {
+  position: relative;
+  width: 250px;
 }
 
 a {
   color: aqua;
-  align-content: flex-start;
+  position: absolute;
+  bottom: 18px;
+  left: 35px;
 }
 
 footer {
