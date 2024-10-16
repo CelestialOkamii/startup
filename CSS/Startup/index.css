@@ -11,8 +11,8 @@ html {
 }
 
 img:first-child {
-  max-height: 89px;
-  max-width: 149px;
+  height: 89px;
+  width: 149px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -95,6 +95,11 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+  z-index: 0;
+}
+
 main {
   color: white;
   font-size: 50px;
@@ -142,3 +147,72 @@ footer {
   background-color: #16014d;
 }
 
+img {
+  margin: 0;
+}
+
+#Lp1 {
+  height: 150px;
+  width: 278px;
+  top: 0;
+  animation: Lp1 30s linear 10s infinite normal none;
+}
+
+#Lp2 {
+  height: 200px;
+  width: 370.6px;
+  animation: Lp2 1m linear 1m infinite normal none;
+}
+
+#Lp3 {
+  height: 250px;
+  width: 463.3px;
+  animation: Lp3 40s linear 2m infinite normal none;
+}
+
+#Rp1 {
+  height: 225px;
+  width: 417px;
+  animation: Rp1 20s linear 15s infinite reverse none;
+}
+
+#Rp2 {
+  height: 200px;
+  width: 370.6px;
+  animation: Rp2 35s linear 50s infinite reverse none;
+}
+
+#Rp3 {
+  height: 250px;
+  width: 463.3px;
+}
+
+#Ld1 {
+  height: 255.1px;
+  width: 262.2px;
+}
+
+#Ld2 {
+  height: 95.6px;
+  width: 98.3px;
+}
+
+#Ld3 {
+  height: 191.3px;
+  width: 196.6px;
+}
+
+#Rd1 {
+  height: 123px;
+  width: 126.4px;
+}
+
+#Rd2 {
+  height: 159.4px;
+  width: 163.8px;
+}
+
+#Rd3 {
+  height: 191.3px;
+  width: 196.6px;
+}
