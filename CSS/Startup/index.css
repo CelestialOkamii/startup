@@ -97,7 +97,10 @@ body {
 
 h1 {
   text-align: center;
-  z-index: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
 }
 
 main {
@@ -105,9 +108,6 @@ main {
   font-size: 50px;
   display: flex;
   flex: 1;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 p:first-child {
@@ -151,68 +151,101 @@ img {
   margin: 0;
 }
 
-#Lp1 {
+.flex-wrapper {
+  position: relative;
+  z-index: 1;
   height: 150px;
   width: 278px;
-  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
   animation: Lp1 30s linear 10s infinite normal none;
 }
 
 #Lp2 {
+  z-index: 1;
   height: 200px;
   width: 370.6px;
   animation: Lp2 1m linear 1m infinite normal none;
 }
 
 #Lp3 {
+  z-index: 1;
   height: 250px;
   width: 463.3px;
   animation: Lp3 40s linear 2m infinite normal none;
 }
 
 #Rp1 {
+  z-index: 1;
   height: 225px;
   width: 417px;
   animation: Rp1 20s linear 15s infinite reverse none;
 }
 
 #Rp2 {
+  z-index: 1;
   height: 200px;
   width: 370.6px;
   animation: Rp2 35s linear 50s infinite reverse none;
 }
 
 #Rp3 {
+  z-index: 1;
   height: 250px;
   width: 463.3px;
+  animation: Rp3 1.1m linear 3m infinite reverse none;
 }
 
 #Ld1 {
+  z-index: 1;
   height: 255.1px;
   width: 262.2px;
+  animation: Ld1 27s linear 27s infinite normal none;
 }
 
 #Ld2 {
+  z-index: 1;
   height: 95.6px;
   width: 98.3px;
+  animation: Ld2 55s linear 1.2m infinite normal none;
 }
 
 #Ld3 {
+  z-index: 1;
   height: 191.3px;
   width: 196.6px;
+  animation: Ld3 40s linear 3m infinite normal none;
 }
 
 #Rd1 {
+  z-index: 1;
   height: 123px;
   width: 126.4px;
+  animation: Rd1 18s linear 2.1m infinite reverse none;
 }
 
 #Rd2 {
+  z-index: 1;
   height: 159.4px;
   width: 163.8px;
+  animation: Rd2 37s linear 25s infinite reverse none;
 }
 
 #Rd3 {
+  z-index: 1;
   height: 191.3px;
   width: 196.6px;
+  animation: Rd3 3m linear 1.2m infinite reverse none;
+}
+
+@keyframes Lp1 {
+  from {
+    transform: translateX(115%);
+  }
+  to {
+    transform: translateX(-115%);
+  }
 }
