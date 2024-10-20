@@ -4,47 +4,49 @@
        <title>Ducks In a Row Login Page</title> 
        <link rel="stylesheet" href="./index.css">
     </head>
-    <header>
-        <img alt="Duck Logo" src="Login Duck.png">
-        <form method="get" action="home.html">
-            <div>
-            <label for="username">Username: </label>
-                <input type="text"  autocomplete="username" id="username" placeholder="Username Here" />
+    <body>
+        <header>
+            <img id= "duck_logo" alt="Duck Logo" src="Login Duck.png">
+            <form method="get" action="home.html">
+                <div>
+                <label id="u-label" for="username">Username: </label>
+                    <input type="text"  autocomplete="username" id="username" placeholder="Username Here" />
+                </div>
+                <div id="p_label">
+                    <label for="password">Password: </label>
+                        <input type="text" autocomplete="current-password" id="password" placeholder="Password Here" />
+                </div>
+                <div id="button" class="button-container">
+                    <button type="submit" id="login">Login</button>
+                </div>
+            </form>    
+        </header>
+        <main>
+            <h1>Ducks In A Row</h1>
+        </main>
+        <div id="ducks">
+            <img id= "Lp1" alt="Floating Ducks" src="Login Screen Ducks Facing Left.png">
+            <img id= "Lp2" alt="Floating Ducks" src="Login Screen Ducks Facing Left.png">
+            <img id= "Lp3" alt="Floating Ducks" src="Login Screen Ducks Facing Left.png">
+            <img id= "Rp1" alt="Floating Ducks" src="Login Screen Ducks Facing Right.png">
+            <img id= "Rp2" alt="Floating Ducks" src="Login Screen Ducks Facing Right.png">
+            <img id= "Rp3" alt="Floating Ducks" src="Login Screen Ducks Facing Right.png">
+            <img id= "Ld1" alt="Floating Ducks" src="Login Screen Duck Facing Left.png">
+            <img id= "Ld2" alt="Floating Ducks" src="Login Screen Duck Facing Left.png">
+            <img id= "Ld3" alt="Floating Ducks" src="Login Screen Duck Facing Left.png">
+            <img id= "Rd1" alt="Floating Ducks" src="Login Screen Duck Facing Right.png">
+            <img id= "Rd2" alt="Floating Ducks" src="Login Screen Duck Facing Right.png">
+            <img id= "Rd3" alt="Floating Ducks" src="Login Screen Duck Facing Right.png">
         </div>
-        <div>
-            <label for="password">Password: </label>
-                <input type="text" autocomplete="current-password" id="password" placeholder="Password Here" />
-        </div>
-        <div class="button-container">
-            <button type="submit" id="login">Login</button>
-        </div>
-        </form>    
-    </header>
-    <main>
-        <h1>Ducks In A Row</h1>
-    </main>
-    <div id="ducks">
-        <img id= "Lp1" alt="Floating Ducks" src="Login Screen Ducks Facing Left.png">
-        <img id= "Lp2" alt="Floating Ducks" src="Login Screen Ducks Facing Left.png">
-        <img id= "Lp3" alt="Floating Ducks" src="Login Screen Ducks Facing Left.png">
-        <img id= "Rp1" alt="Floating Ducks" src="Login Screen Ducks Facing Right.png">
-        <img id= "Rp2" alt="Floating Ducks" src="Login Screen Ducks Facing Right.png">
-        <img id= "Rp3" alt="Floating Ducks" src="Login Screen Ducks Facing Right.png">
-        <img id= "Ld1" alt="Floating Ducks" src="Login Screen Duck Facing Left.png">
-        <img id= "Ld2" alt="Floating Ducks" src="Login Screen Duck Facing Left.png">
-        <img id= "Ld3" alt="Floating Ducks" src="Login Screen Duck Facing Left.png">
-        <img id= "Rd1" alt="Floating Ducks" src="Login Screen Duck Facing Right.png">
-        <img id= "Rd2" alt="Floating Ducks" src="Login Screen Duck Facing Right.png">
-        <img id= "Rd3" alt="Floating Ducks" src="Login Screen Duck Facing Right.png">
-        </div>
-    <footer>
-        <div id="link">
-            <p>
-                For more information about DucksInARow.click see Danielle Ebenal's GitHub repository linked below!
-            </p>
-            <a href="https://github.com/CelestialOkamii/startup.git">DucksInARow Repository</a>
-        </div>
-        <div id="credit">
-            <p>This site uses some images from Freepik although some may be altered from their original state</p>
-        </div>
-    </footer>
+        <footer>
+            <div id="link">
+                <p>
+                    For more information about DucksInARow.click see Danielle Ebenal's GitHub repository linked below!
+                </p>
+                <a href="https://github.com/CelestialOkamii/startup.git">DucksInARow Repository</a>
+            </div>
+            <div id="credit">
+                <p>This site uses some images from Freepik although some may be altered from their original state</p>
+            </div>
+        </footer>
+    </body>
