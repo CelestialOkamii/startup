@@ -109,6 +109,8 @@ body {
   background: #0a72fa;
   margin: 0;
   min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 main {
@@ -140,12 +142,14 @@ p:first-child {
   margin: 0;
   position: absolute;
   flex: 0.1;
+  z-index: 2;
 }
 
 #link {
   position: relative;
   width: 250px;
   margin-right: 10px;
+  z-index: 2;
 }
 
 a {
@@ -166,7 +170,6 @@ footer {
   margin: 0;
   padding: 0;
   background-color: #16014d;
-  z-index: 2;
   margin-top: auto;
 }
 
@@ -191,7 +194,7 @@ img {
   width: 278px;
   top: 3%;
   right: -35%;
-  animation: Lp1 30s linear 10s infinite normal none;
+  animation: Lp1 30s linear 2s infinite normal none;
 }
 
 #Lp2 {
@@ -201,7 +204,7 @@ img {
   width: 370.6px;
   top: 20%;
   right: -45%;
-  animation: Lp2 1m linear 1m infinite normal none;
+  animation: Lp2 60s linear 2s infinite normal none;
 }
 
 #Lp3 {
@@ -211,7 +214,7 @@ img {
   width: 463.3px;
   top: 60%;
   right: -55%;
-  animation: Lp3 40s linear 2m infinite normal none;
+  animation: Lp3 40s linear 1s infinite normal none;
 }
 
 #Rp1 {
@@ -221,7 +224,7 @@ img {
   width: 417px;
   top: 35%;
   left: -50%;
-  animation: Rp1 20s linear 15s infinite reverse none;
+  animation: Rp1 20s linear 45s infinite reverse none;
 }
 
 #Rp2 {
@@ -229,7 +232,7 @@ img {
   z-index: 1;
   height: 200px;
   width: 370.6px;
-  top: 15%;
+  top: 50%;
   left: -50%;
   animation: Rp2 35s linear 50s infinite reverse none;
 }
@@ -241,7 +244,7 @@ img {
   width: 463.3px;
   top: 65%;
   left: -55%;
-  animation: Rp3 1.1m linear 3m infinite reverse none;
+  animation: Rp3 66s linear 180s infinite reverse none;
 }
 
 #Ld1 {
@@ -249,6 +252,8 @@ img {
   z-index: 1;
   height: 255.1px;
   width: 262.2px;
+  top: 57%;
+  right: -35%;
   animation: Ld1 27s linear 27s infinite normal none;
 }
 
@@ -257,7 +262,9 @@ img {
   z-index: 1;
   height: 95.6px;
   width: 98.3px;
-  animation: Ld2 55s linear 1.2m infinite normal none;
+  top: 83%;
+  right: -35%;
+  animation: Ld2 55s linear 72s infinite normal none;
 }
 
 #Ld3 {
@@ -265,7 +272,9 @@ img {
   z-index: 1;
   height: 191.3px;
   width: 196.6px;
-  animation: Ld3 40s linear 3m infinite normal none;
+  top: 30%;
+  right: -35%;
+  animation: Ld3 40s linear 180 infinite normal none;
 }
 
 #Rd1 {
@@ -273,7 +282,9 @@ img {
   z-index: 1;
   height: 123px;
   width: 126.4px;
-  animation: Rd1 18s linear 2.1m infinite reverse none;
+  top: 39%;
+  left: -17%;
+  animation: Rd1 60s linear 5s infinite reverse none;
 }
 
 #Rd2 {
@@ -281,7 +292,9 @@ img {
   z-index: 1;
   height: 159.4px;
   width: 163.8px;
-  animation: Rd2 37s linear 25s infinite reverse none;
+  top: 3%;
+  left: -20%;
+  animation: Rd2 37s linear 42s infinite reverse none;
 }
 
 #Rd3 {
@@ -289,7 +302,9 @@ img {
   z-index: 1;
   height: 191.3px;
   width: 196.6px;
-  animation: Rd3 3m linear 1.2m infinite reverse none;
+  top: 17%;
+  left: -25%;
+  animation: Rd3 180s linear 72s infinite reverse none;
 }
 
 
@@ -305,21 +320,21 @@ img {
 
 @keyframes Lp2 {
   from {
-    transform: translateX(10vw);
+    transform: translateX(130vw);
 
   }
   to {
-    transform: translateX(150vw);
+    transform: translateX(-150vw);
   }
 }
 
 @keyframes Lp3 {
   from {
-    transform: translateX(155vw);
+    transform: translateX(200vw);
 
   }
   to {
-    transform: translateX(-175vw);
+    transform: translateX(-200vw);
   }
 }
 
@@ -344,6 +359,66 @@ img {
 }
 
 @keyframes Rp2 {
+  from {
+    transform: translateX(200vw);
+
+  }
+  to {
+    transform: translateX(10vw);
+  }
+}
+
+@keyframes Ld1 {
+  from {
+    transform: translateX(135vw);
+
+  }
+  to {
+    transform: translateX(-150vw);
+  }
+}
+
+@keyframes Ld2 {
+  from {
+    transform: translateX(135vw);
+
+  }
+  to {
+    transform: translateX(-150vw);
+  }
+}
+
+@keyframes Ld3 {
+  from {
+    transform: translateX(135vw);
+
+  }
+  to {
+    transform: translateX(-150vw);
+  }
+}
+
+@keyframes Rd1 {
+  from {
+    transform: translateX(200vw);
+
+  }
+  to {
+    transform: translateX(10vw);
+  }
+}
+
+@keyframes Rd2 {
+  from {
+    transform: translateX(200vw);
+
+  }
+  to {
+    transform: translateX(10vw);
+  }
+}
+
+@keyframes Rd3 {
   from {
     transform: translateX(200vw);
 
