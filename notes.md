@@ -20,11 +20,27 @@
 ## HTML
 - `for=` and `id=` must be the same for form elements that go together
 - `<hr>` seperates with a line
-- if want things like labels or images to be on the same line as each other use `<div>`
+- if want things like labels or images to be on the same line as each other use `<div>`-
 - `<select>` is the one for drop down menus and `<option>` goes in it to give options for the drop down
 - `<option selected></option>` makes whatever is in that option no matter where it is in the list the thing that will automaticallgy be selected in the `<select>` box when the page loads
 - for `<img>` is easier to use with images committed to github and then using relative paths to get to where image is stored as opposed to trying to figure out doing it from being saved on my computer
 - instead of using a 3rd party for login will use Random Useless Facts to amuse people making ducks
 - if using images from FreePiks must give credit to be safe
 
+## Midterm Notes
+### HTML
+#### Examples
+- Audio: `<audio controls src="testAudio.mp3"></audio>`
+- Video: `<video controls width="300" crossorigin="anonymous"> <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
+</video>`
+- SVG: `<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="red" style="border: 1px solid #000000">
+  <circle cx="150" cy="100" r="50" />
+</svg>`
+- Canvas/Javascript: `<canvas id="canvasDemo" width="300" height="200" style="border: 1px solid #000000"></canvas> <script> const ctx = document.getElementById('canvasDemo').getContext('2d'); ctx.beginPath(); ctx.arc(150, 100, 50, 0, 2 * Math.PI); ctx.fillStyle = 'red'; ctx.strokeStyle = 'red'; ctx.fill(); ctx.stroke(); </script>`
 
+### CSS
+- Tailwinds is second most popular stylesheet thing and uses css parameters in html coding
+- Bootstrap is most popular but can make it hard for things to look different and stand out
+
+### JavaScript
+- `document.anything` for access to be able to change elements
