@@ -20,7 +20,7 @@ body {
     min-width: 915px;
     min-height: 420px;
     max-width: 100%;
-    overflow-x: hidden;
+    
 }
 
 h1 {
@@ -57,7 +57,6 @@ h1 {
 }
 
 #ponds {
-    
     top: 35%;
     display: flex;
     justify-content: space-evenly;
@@ -77,7 +76,7 @@ h1 {
 }
 
 #pond2 {
-    transform: translateX(150%);
+    transform: translateX(-45%);
     top: 50%;
     z-index: 2;
 }
