@@ -6,12 +6,168 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+  }
+
 body {
     display: flex;
+    position: relative;
+    min-height: 100%;
     background-color: #09852a;
     font-family: 'Annie Use Your Telescope';
     color: #361304;
-    min-width: 915px;
-    min-height: 420px;
+    min-height: 100vh;
+    min-width: 863px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
+h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10vh;
+    text-align: center;
+    z-index: 2;
+}
+
+h3 {
+    position: absolute;
+    justify-self: flex-start;
+}
+
+#customization_options {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+#Hats, #Face, #Neck, #Objects {
+    font-family: "Annie Use Your Telescope";
+    font-size: 2vh;
+    text-align: center;
+    color: white;
+    background-color: #5441cc;
+    border-radius: 50px;
+    border: 1% solid #130952;
+    height: 3vh;
+    width: 15vw;
+    z-index: 2;
+    border-color: #130952;
+    border-style: solid;
+    outline: none;
+}
+
+input::placeholder {
+    color: white;
+}
+
+label {
+    font-size: 3vh;
+}
+
+#pond {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+#identification {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-align: end;
+}
+
+#flock {
+    font-family: "Annie Use Your Telescope";
+    font-size: 2vh;
+    text-align: center;
+    color: white;
+    background-color: #5441cc;
+    border-radius: 50px;
+    border: 1% solid #130952;
+    width: 15vw;
+    height: 3vh;
+    border-color: #130952;
+    border-style: solid;
+}
+
+#oldFlocks {
+    font-family: "Annie Use Your Telescope";
+    font-size: 2vh;
+    text-align: center;
+    color: white;
+    background-color: #5441cc;
+    border-radius: 50px;
+    border: 1% #130952;
+    width: 25vw;
+    height: 3vh;
+    border-color: #130952;
+    border-style: solid;
+}
+
+#add_to_flock {
+    font-family: "Annie Use Your Telescope";
+    font-size: 2vh;
+    color: white;
+    background-color: #5441cc;
+    border-radius: 50px;
+    border: 1% #130952;
+    height: 3vh;
+    width: 15vw;
+    border-color: #130952;
+    border-style: solid;
+}
+
+#factoid {
+    margin-right: 10%;
+}
+
+#fact {
+    position: absolute;
+    bottom: 2vh;
+    left: 20vw;
+    background-color: #0c4a19;
+    color: white;
+    border-radius: 50px;
+    border:2px solid #04330e;
+    padding: 1%;
+}
+
+#fact_generator {
+    position: absolute;
+    bottom: 2vh;
+    left: 0;
+    font-family: "Annie Use Your Telescope";
+    font-size: 2vh;
+    color: white;
+    background-color: #5441cc;
+    border-radius: 50px;
+    border: 1% #130952;
+    height: 3vh;
+    width: 15vw;
+    border-color: #130952;
+    border-style: solid;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: space-between;
+    position: absolute;
+    bottom: 0%;
+    height: 12vh;
+    align-items: bottom;
+}

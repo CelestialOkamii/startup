@@ -4,43 +4,82 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
+
+html {
+    height: 100%;
+  }
 
 body {
     display: flex;
+    position: relative;
     background-color: #09852a;
     font-family: 'Annie Use Your Telescope';
     color: #361304;
     min-width: 915px;
     min-height: 420px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1 {
-    font-size:10vh;
+    text-wrap: wrap;
+    width: 50%;
+}
+
+#gap {
+    flex-basis: 10%;
+}
+
+#pond_headings {
+    position: absolute;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size:5vh;
     text-shadow: 0.2vh 0.2vw 3% #022b07;
     text-align: center;
+    flex: 1 auto 1;
 }
 
 #your_pond {
     margin-right: 1vw;
+    height: 10vh;
 }
 
 #user_pond {
-    position: fixed;
-    margin-right: 1%;
     left: 5vw;
     top: 1vh;
 }
 
-#pond1 {
+#ponds {
+    
+    top: 35%;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    position: fixed;
-    right: 50%;
-    max-width: 100%;
-    height: auto;
-    top: 10%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex: 1 auto 1;
+    position: absolute;
+}
+
+#pond1 {
+    transform: translateX(-50%);
+    top: 50%;
+    z-index: 2;
+}
+
+#pond_div {
+    flex-basis: 10%;
+}
+
+#pond2 {
+    transform: translateX(150%);
+    top: 50%;
+    z-index: 2;
 }
 
 #add_ducks {
@@ -50,29 +89,16 @@ h1 {
     background-color: #0d4f1e;
     border-radius: 50px;
     border: 1% solid #022b07;
-    position: fixed;
-    bottom: 5vh;
+    position: absolute;
+    top:80vh;
     left: 1vw;
     height: 5vh;
-    width: 15vw;
+    min-width: 15vw;
 }
 
 #friends_pond {
-    position: fixed;
-    margin-left: 1%;
     right: 5vw;
     top: 1vh;
-}
-
-#pond2 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    position: fixed;
-    left: 50%;
-    max-width: 100%;
-    height: auto;
-    top: 5%;
 }
 
 #send_ducks {
@@ -82,9 +108,9 @@ h1 {
     background-color: #0d4f1e;
     border-radius: 50px;
     border: 1% solid #022b07;
-    position: fixed;
-    bottom: 5vh;
+    position: absolute;
+    top:80vh;
     right: 1vw;
     height: 5vh;
-    width: 15vw;
+    min-width: 15vw;
 }

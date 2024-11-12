@@ -10,7 +10,7 @@
             <h3>
                 User: QuackSparrow
             </h3>
-            <form>
+            <form id = "customization_options">
                 <label for="Hats"><h4>Hats:</h4></label>
                 <select id="Hats" name="varDropDown">
                     <option>None</option>
@@ -32,7 +32,7 @@
                     <option>Feather Boa</option>
                     <option>Polka Dot Tie</option>
                 </select>
-                <label for="Onjects"><h4>Objects:</h4></label>
+                <label for="Objects"><h4>Objects:</h4></label>
                 <select id="Objects" name="varChoices">
                     <option>None</option>
                     <option>Trashbag</option>
@@ -41,9 +41,9 @@
                 </select>
             </form>
                 <div>
-                    <img alt="Duck Wearing Headphones Holding Notebook" src="Duck with Headphones and Notebook.png">
+                    <img id = "pond" alt="Pond" src="the_pond.png">
                 </div>
-            <form>
+            <form id = "identification">
                 <label for="flock"><h4>Start New Flock:</h4></label>
                     <div>
                         <input type="text" id= "flock" placeholder="Name" /></div>
@@ -56,21 +56,17 @@
                     <option>Thanksgiving's Survivors</option>
                 </select>
                 <div>
-                    <img alt="Last Friday Night's Good Decisions minus Notebook Duck" src="Last Friday Night's Good Decisions - Notebook Duck.png">
-                </div>
-                <div>
-                    <button type="submit">Add to Flock</button>
+                    <button id = "add_to_flock" type="submit">Add to Flock</button>
                 </div>
             </form>
         </body>
     </main>
     <footer>
-        <h5>
+        <h5 id="factoid">
             Are your ducks not interesting enough to knock the socks off your loved ones? If not these random facts won't either, but they're probably more interesdting than Great Aunt Martha's story about a dog being in yoga class last week!
         </h5>
-        <button type="submit">Generate a Fact</button>
-        <p>
+        <button id = "fact_generator" type="submit">Generate a Fact</button>
+        <p id="fact">
             Flamingos are born with white feathers that turn pink because of their diet.
         </p>
-        <p>All images came from Freepik although some may be altered</p>
     </footer>

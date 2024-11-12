@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Homemade+Apple&family=Lavishly+Yours&family=Love+Ya+Like+A+Sister&family=Nothing+You+Could+Do&family=Splash&family=Unkempt:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+  }
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8vh;
+    text-align: center;
+    z-index: 2;
+}
+
+h3 {
+    position: absolute;
+    justify-self: flex-start;
+}
+
+body {
+    display: flex;
+    position: relative;
+    background-color: #09852a;
+    font-family: 'Annie Use Your Telescope';
+    color: #361304;
+    min-height: 100vh;
+    min-width: 873px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+#pond {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+label {
+    font-size: 4vh;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#options, #AddFriend, #new_friends, #reinforcements {
+    font-family: "Annie Use Your Telescope";
+    font-size: 3vh;
+    text-align: center;
+    color: white;
+    background-color: #5441cc;
+    border-radius: 50px;
+    border: 1% solid #130952;
+    height: 4vh;
+    width: 20vw;
+    z-index: 2;
+    border-color: #130952;
+    border-style: solid;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+#dropDown {
+    font-family: "Annie Use Your Telescope";
+    font-size: 3vh;
+    text-align: center;
+    color: white;
+    background-color: #5441cc;
+    border-radius: 50px;
+    border: 1% #130952;
+    margin-bottom: 5px;
+    width: 25vw;
+    height: 4vh;
+    border-color: #130952;
+    border-style: solid;
+    z-index: 2;
+    outline: none;
+}
+
+#reinforcements {
+    width: 25vw;
+}
+
+p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0%;
+    height: 12vh;
+    align-items: bottom;
+    right: 60%;
+    text-align: center;
+}

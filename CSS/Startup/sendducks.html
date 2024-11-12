@@ -2,9 +2,13 @@
 <html lang="en">
     <head>
        <title>Ducks In a Row Sharing Page</title> 
+       <link rel="stylesheet" href="./sendducks.css">
     </head>
     <main>
         <body>
+            <div >
+                <img id = "pond" alt="Pond" src="final _across_the_pond.png">
+            </div>
             <h1>
                 Who are we sending reinforcements to?
             </h1>
@@ -24,10 +28,8 @@
                         <input type="AddFriend" id="AddFriend" placeholder="Username Here" /></div>
                     </div>
                     <div>
-                        <button type="submit">Add New Friend</button>
+                        <button id = "new_friends" type="submit">Add New Friend</button>
                     </div>
-            </form>
-            <form>
                 <label for="dropDown"><h4>Which platoon are we sending?</h4></label>
                 <select id="dropDown" name="varDropDown">
                     <option>The Debuggers</option>
@@ -35,10 +37,7 @@
                     <option>Thanksgiving's Survivors</option>
                 </select>
                 <div>
-                    <img alt="Last Friday Night's Good Decisions" src="Last Friday Night's Good Decisions.png">
-                </div>
-                <div>
-                    <button type="submit">Send Reinforcements</button>
+                    <button id = "reinforcements" type="submit">Send Reinforcements</button>
                 </div>
             </form>
         </body>
