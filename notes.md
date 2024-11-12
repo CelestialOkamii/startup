@@ -27,6 +27,19 @@
 - instead of using a 3rd party for login will use Random Useless Facts to amuse people making ducks
 - if using images from FreePiks must give credit to be safe
 
+## CSS
+- `display: flex` gives whatever thing the property of growing and shrinking according to screen size changes
+- `position: absolute` allows you to place an element anywhere ased on window positioning
+- `position: relative` allows you to freely move an element based of of the dimensions of the parent element
+- to ensure space between elements add a div between them that contains `flex: 1 auto 1` and position elements then the div will take up whatever space is between them
+- can change transparency with `opacity: 0` for transparent and `opacity: 1` for opaque
+- to get rid of shadow on buttons if shorthand border doesn't work do `border-style: solid`
+- `border-radius` determines curve of button edges
+- to change input placeholder text color have to use `input::placeholder {}`
+- cannot have `display:block` and `display: flex` just use `align-content` and absolute or relative positioning
+- `align-content` is up and down
+- `justify-content` is side to side
+
 ## Midterm Notes
 ### HTML
 #### Examples
