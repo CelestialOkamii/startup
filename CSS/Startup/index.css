@@ -195,6 +195,7 @@ img {
   width: 278px;
   top: 3%;
   right: -35%;
+  opacity: 0;
   animation: Lp1 30s linear 2s infinite normal none;
 }
 
@@ -205,6 +206,7 @@ img {
   width: 370.6px;
   top: 20%;
   right: -45%;
+  opacity: 0;
   animation: Lp2 60s linear 2s infinite normal none;
 }
 
@@ -215,6 +217,7 @@ img {
   width: 463.3px;
   top: 60%;
   right: -55%;
+  opacity: 0;
   animation: Lp3 40s linear 1s infinite normal none;
 }
 
@@ -225,6 +228,7 @@ img {
   width: 417px;
   top: 35%;
   left: -50%;
+  opacity: 0;
   animation: Rp1 20s linear 45s infinite reverse none;
 }
 
@@ -235,6 +239,7 @@ img {
   width: 370.6px;
   top: 50%;
   left: -50%;
+  opacity: 0;
   animation: Rp2 35s linear 50s infinite reverse none;
 }
 
@@ -245,6 +250,7 @@ img {
   width: 463.3px;
   top: 65%;
   left: -55%;
+  opacity: 0;
   animation: Rp3 66s linear 180s infinite reverse none;
 }
 
@@ -255,6 +261,7 @@ img {
   width: 262.2px;
   top: 57%;
   right: -35%;
+  opacity: 0;
   animation: Ld1 27s linear 27s infinite normal none;
 }
 
@@ -265,6 +272,7 @@ img {
   width: 98.3px;
   top: 83%;
   right: -35%;
+  opacity: 0;
   animation: Ld2 55s linear 72s infinite normal none;
 }
 
@@ -275,6 +283,7 @@ img {
   width: 196.6px;
   top: 30%;
   right: -35%;
+  opacity: 0;
   animation: Ld3 40s linear 180 infinite normal none;
 }
 
@@ -285,6 +294,7 @@ img {
   width: 126.4px;
   top: 39%;
   left: -17%;
+  opacity: 0;
   animation: Rd1 60s linear 5s infinite reverse none;
 }
 
@@ -295,6 +305,7 @@ img {
   width: 163.8px;
   top: 3%;
   left: -20%;
+  opacity: 0;
   animation: Rd2 37s linear 42s infinite reverse none;
 }
 
@@ -305,126 +316,151 @@ img {
   width: 196.6px;
   top: 17%;
   left: -25%;
+  opacity: 0;
   animation: Rd3 180s linear 72s infinite reverse none;
 }
 
 
 @keyframes Lp1 {
   from {
+    opacity: 1;
     transform: translateX(130vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(-150vw);
   }
 }
 
 @keyframes Lp2 {
   from {
+    opacity: 1;
     transform: translateX(130vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(-150vw);
   }
 }
 
 @keyframes Lp3 {
   from {
+    opacity: 1;
     transform: translateX(200vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(-200vw);
   }
 }
 
 @keyframes Rp1 {
   from {
+    opacity: 1;
     transform: translateX(200vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(10vw);
   }
 }
 
 @keyframes Rp2 {
   from {
+    opacity: 1;
     transform: translateX(200vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(10vw);
   }
 }
 
 @keyframes Rp2 {
   from {
+    opacity: 1;
     transform: translateX(200vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(10vw);
   }
 }
 
 @keyframes Ld1 {
   from {
+    opacity: 1;
     transform: translateX(135vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(-150vw);
   }
 }
 
 @keyframes Ld2 {
   from {
+    opacity: 1;
     transform: translateX(135vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(-150vw);
   }
 }
 
 @keyframes Ld3 {
   from {
+    opacity: 1;
     transform: translateX(135vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(-150vw);
   }
 }
 
 @keyframes Rd1 {
   from {
+    opacity: 1;
     transform: translateX(200vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(10vw);
   }
 }
 
 @keyframes Rd2 {
   from {
+    opacity: 1;
     transform: translateX(200vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(10vw);
   }
 }
 
 @keyframes Rd3 {
   from {
+    opacity: 1;
     transform: translateX(200vw);
 
   }
   to {
+    opacity: 1;
     transform: translateX(10vw);
   }
 }
