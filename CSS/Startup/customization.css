@@ -23,6 +23,21 @@ body {
     overflow-x: hidden;
 }
 
+#back_button {
+    position: absolute;
+    font-family: "Annie Use Your Telescope";
+    font-size: 2vh;
+    color: white;
+    background-color: #0c4a19;    ;
+    border-radius: 50px;
+    border: 1% #04330e;
+    height: 3vh;
+    width: 10vw;
+    border-color: #04330e;
+    border-style: solid;
+    top: 4%;
+}
+
 h1 {
     position: absolute;
     top: 0;
