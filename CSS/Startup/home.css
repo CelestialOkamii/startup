@@ -57,16 +57,19 @@ h1 {
 }
 
 #ponds {
+    overflow: hidden;
+    padding: 0%;
     top: 35%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
     flex: 1 auto 1;
     position: absolute;
+    min-width: 100%
 }
 
 #pond1 {
-    transform: translateX(-50%);
+    left: 0;
     top: 50%;
     z-index: 2;
 }
@@ -76,7 +79,7 @@ h1 {
 }
 
 #pond2 {
-    transform: translateX(-45%);
+    right: 0;
     top: 50%;
     z-index: 2;
 }
