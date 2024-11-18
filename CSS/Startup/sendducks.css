@@ -12,6 +12,7 @@ html {
 
 h1 {
     position: absolute;
+    text-shadow: 2px 2px 3px #022b07;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -23,6 +24,24 @@ h1 {
 h3 {
     position: absolute;
     justify-self: flex-start;
+}
+
+#back_button {
+    position: absolute;
+    font-family: "Annie Use Your Telescope";
+    font-size: 2vh;
+    color: white;
+    background-color: #0c4a19;    ;
+    border-radius: 50px;
+    border: 1% #04330e;
+    height: 3vh;
+    width: 10vw;
+    border-color: #04330e;
+    border-style: solid;
+    top: 4%;
+    text-decoration: none;
+    text-align: center;
+    z-index: 10;
 }
 
 body {
@@ -37,7 +56,7 @@ body {
     overflow-x: hidden;
 }
 
-form {
+#friends_column {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -50,7 +69,7 @@ form {
 
 #pond {
     position: absolute;
-    left: 50%;
+    left: 60%;
     top: 50%;
     transform: translate(-50%,-50%);
     z-index: 1;

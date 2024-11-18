@@ -36,9 +36,13 @@ body {
     border-color: #04330e;
     border-style: solid;
     top: 4%;
+    z-index: 10;
+    text-align: center;
+    text-decoration: none;
 }
 
 h1 {
+    text-shadow: 2px 2px 3px #022b07;
     position: absolute;
     top: 0;
     left: 50%;

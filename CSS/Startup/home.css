@@ -41,7 +41,7 @@ h1 {
     padding-right: 10px;
     padding-left: 10px;
     font-size:5vh;
-    text-shadow: 0.2vh 0.2vw 3% #022b07;
+    text-shadow: 2px 2px 3px #022b07;
     text-align: center;
     flex: 1 auto 1;
 }
@@ -90,12 +90,16 @@ h1 {
     color: white;
     background-color: #0d4f1e;
     border-radius: 50px;
-    border: 1% solid #022b07;
     position: absolute;
     top:80vh;
     left: 1vw;
     height: 5vh;
     min-width: 15vw;
+    border-color: #022b07;
+    border-style: solid;
+    text-decoration: none;
+    text-align: center;
+    z-index: 10;
 }
 
 #friends_pond {
@@ -103,14 +107,23 @@ h1 {
     top: 1vh;
 }
 
+.button {
+    pointer-events: auto; /* Ensure the link is clickable */
+    cursor: pointer;
+}
+
 #send_ducks {
+    z-index: 10;
+    text-align: center;
+    text-decoration: none;
     font-family: "Annie Use Your Telescope";
     font-size: 3vh;
     color: white;
     background-color: #0d4f1e;
     border-radius: 50px;
-    border: 1% solid #022b07;
     position: absolute;
+    border-color: #022b07;
+    border-style: solid;
     top:80vh;
     right: 1vw;
     height: 5vh;
