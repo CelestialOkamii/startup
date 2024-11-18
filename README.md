@@ -36,5 +36,13 @@ Have your parents, in-laws, or other family members ever gotten on you about how
 - [x] **DB/Login** - I have input boxes for the user to put their username and password and a button to log them in. The database is represented by the select drop down menus that will store customization options, names of past creations, and friends names.
 - [x] **WebSocket** - The Across the Pond duck pond is a placeholder for a non static image that will show ducks being sent to you by friends.
 
+## CSS
+- [X] **Header, Footer, Main Content Body**
+- [X] **Navigation Elements** - Added buttons for going back to the home page and gave them a nice green color throughout to stay consistent
+- [X] **Responsive to Window Resizing** - As far as I know, my website looks good at any size, but I have included minimum-width elements on most pages so the user can get the best look.
+- [X] **Application Elements** - Everything is nicely spaced and there is plenty of whitespace to keep from being too busy
+- [X] **Application Text Contrast** - Everything uses the same font and every element has consistent styling
+- [X] **Application Images**—My ducks now move on the login page, and the ponds look better and are positioned correctly. The placeholder ducks got the boot, but with the addition of Javascript, more ducks will pop up. 
+
 ### Creator Notes
 Click [notes](https://github.com/CelestialOkamii/startup/blob/main/notes.md) to go to CS 260 notes.
