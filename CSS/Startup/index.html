@@ -10,14 +10,14 @@
             <form method="get" action="home.html">
                 <div>
                 <label id="u-label" for="username">Username: </label>
-                    <input type="text"  autocomplete="username" id="username" placeholder="Username Here" />
+                    <input  ref={emailRef} type="text"  autocomplete="username" id="username" placeholder="Username Here" />
                 </div>
                 <div id="p_label">
                     <label for="password">Password: </label>
-                        <input type="text" autocomplete="current-password" id="password" placeholder="Password Here" />
+                        <input ref={passwordRef} type="text" autocomplete="current-password" id="password" placeholder="Password Here" />
                 </div>
                 <div id="button" class="button-container">
-                    <button type="submit" id="login">Login</button>
+                    <button onClick={handleLogin} type="submit" id="login">Login</button>
                 </div>
             </form>    
         </header>
