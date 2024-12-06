@@ -3,6 +3,7 @@
     <head>
        <title>Ducks In a Row Customization Page</title> 
        <link rel="stylesheet" href="./customization.css">
+       <script src="customization.js"></script>
     </head>
     <main>
         <body>
@@ -14,27 +15,20 @@
             <form id = "customization_options">
                 <label for="Hats"><h4>Hats:</h4></label>
                 <select class = "my_drop_downs" id="Hats" name="varDropDown">
-                    <option id = "no_hat"selected>None</option>
-                    <option id = "party_hat">Party Hat</option>
-                    <option id = "ball_cap">Ball Cap</option>
+                    <option value = "no_hat"selected>None</option>
+                    <option value = "party_hat">Party Hat</option>
+                    <option value = "ball_cap">Ball Cap</option>
                 </select>
-                <label for="Face"><h4>Face:</h4></label>
-                <select class = "my_drop_downs" id="Face" name="varSelections">
-                    <option id = "no_face" selected>None</option>
-                    <option id = "monocle">Monocle</option>
-                </select>
-                <label for="Neck"><h4>Neck Apparel:</h4></label>
-                <select class = "my_drop_downs" id="Neck" name="varOptions">
-                    <option id = "no_neck" selected>None</option>
-                    <option id = "scarf">Scarf</option>
-                    <option id = "necklace">Necklace</option>
-                </select>
+                <span class = "output1"></span>
+                <button onclick="get_option()"></button>
                 <label for="Objects"><h4>Objects:</h4></label>
                 <select  class = "my_drop_downs" id="Objects" name="varChoices">
-                    <option id = "no_object" selected>None</option>
-                    <option id = "book">Book</option>
-                    <option id = "shopping_bag">Shopping Bag</option>
+                    <option value = "no_object" selected>None</option>
+                    <option value = "book">Book</option>
+                    <option value = "shopping_bag">Shopping Bag</option>
                 </select>
+                <span class = "output2"></span>
+                <button onclick="get_option()"></button>
             </form>
                 <div>
                     <img id = "pond" alt="Pond" src="the_pond.png">
