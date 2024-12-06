@@ -13,11 +13,17 @@ function get_option2() {
 
 
 function change_hat(hat) {
-     
+     let hat_imgs = document.querySelectorAll('hats_imgs');
+     hat_imgs.forEach((img) => {
+
+     })
     
 }
-document.getElementById("Hats").onchange = change_hat;
+
 
 function change_object(object) {
 
 }
+
+document.getElementById("Hats").onchange = get_option1;
+document.getElementById("Objects").onchange = get_option1;
