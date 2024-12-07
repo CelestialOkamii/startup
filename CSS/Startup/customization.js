@@ -15,14 +15,27 @@ function get_option2() {
 function change_hat(hat) {
      let hat_imgs = document.querySelectorAll('hats_imgs');
      hat_imgs.forEach((img) => {
-
-     })
+        if (img.id === hat) {
+            img.style.display = "block";
+        }
+        else {
+            img.style.display = "none"
+        }
+    })
     
 }
 
 
 function change_object(object) {
-
+    let objs_imgs = document.querySelectorAll('objects_imgs');
+     objs_imgs.forEach((img) => {
+        if (img.id === object) {
+            img.style.display = "block";
+        }
+        else {
+            img.style.display = "none"
+        }
+    })
 }
 
 document.getElementById("Hats").onchange = get_option1;

@@ -107,10 +107,31 @@ label {
     z-index: 10;
 }
 
-#party_hat {
+#party_hat_img {
     position: absolute;
     left: 25%;
     top: 18%;
+    z-index: 11;
+}
+
+#ball_cap_img {
+    position: absolute;
+    left: 23%;
+    top: 23%;
+    z-index: 11;
+}
+
+#book_img {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    z-index: 11;
+}
+
+#shopping_bag_img {
+    position: absolute;
+    left: 33%;
+    top: 35%;
     z-index: 11;
 }
 
