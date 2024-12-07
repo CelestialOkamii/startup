@@ -16,7 +16,7 @@ function get_option2() {
 function change_hat(hat) {
      let hat_imgs = document.querySelectorAll('.hats_imgs img');
      hat_imgs.forEach((img) => {
-        img.style.opacity = (hat === 'none') ? 0 : (img.id === hat) ? 1 : 0;
+        img.style.opacity = (hat === 'none') ? 0 : (img.id === hat ? 1 : 0);
     })
 }
 
@@ -24,7 +24,7 @@ function change_hat(hat) {
 function change_object(object) {
     let objs_imgs = document.querySelectorAll('.objects_imgs img');
      objs_imgs.forEach((img) => {
-        img.style.opacity = (object === 'none') ? 0 : (img.id === object) ? 1 : 0;
+        img.style.opacity = (object === 'none') ? 0 : (img.id === object ? 1 : 0);
     })
 }
 //Controls and makes things happen only when things change like on click
