@@ -13,7 +13,7 @@ function get_option2() {
 
 
 function change_hat(hat) {
-     let hat_imgs = document.querySelectorAll('#hats_imgs');
+     let hat_imgs = document.querySelectorAll('.hats_imgs img');
      hat_imgs.forEach((img) => {
         img.style.opacity = (img.id === hat) ? 1 : 0;
     })
@@ -22,7 +22,7 @@ function change_hat(hat) {
 
 
 function change_object(object) {
-    let objs_imgs = document.querySelectorAll('#objects_imgs');
+    let objs_imgs = document.querySelectorAll('.objects_imgs img');
      objs_imgs.forEach((img) => {
         img.style.opacity = (img.id == object) ? 1 : 0;
     })

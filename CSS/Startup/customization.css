@@ -107,7 +107,7 @@ label {
     z-index: 10;
 }
 
-#party_hat_img {
+#party_hat {
     position: absolute;
     left: 25%;
     top: 18%;
@@ -115,7 +115,7 @@ label {
     opacity: 0;
 }
 
-#ball_cap_img {
+#ball_cap {
     position: absolute;
     left: 23%;
     top: 23%;
@@ -123,7 +123,7 @@ label {
     opacity: 0;
 }
 
-#book_img {
+#book {
     position: absolute;
     left: 35%;
     top: 35%;
@@ -131,7 +131,7 @@ label {
     opacity: 0;
 }
 
-#shopping_bag_img {
+#shopping_bag {
     position: absolute;
     left: 33%;
     top: 35%;
