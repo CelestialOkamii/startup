@@ -16,10 +16,10 @@ function change_hat(hat) {
      let hat_imgs = document.querySelectorAll('hats_imgs');
      hat_imgs.forEach((img) => {
         if (img.id === hat) {
-            img.style.display = "block";
+            document.getElementById(hat).style.display = "flex";
         }
         else {
-            img.style.display = "none"
+            document.getElementById(img.id).style.visibility="hidden";
         }
     })
     
@@ -30,10 +30,10 @@ function change_object(object) {
     let objs_imgs = document.querySelectorAll('objects_imgs');
      objs_imgs.forEach((img) => {
         if (img.id === object) {
-            img.style.display = "block";
+            document.getElementById(object).style.visibility="visible";
         }
         else {
-            img.style.display = "none"
+            document.getElementById(img.id).style.visibility="hidden";
         }
     })
 }

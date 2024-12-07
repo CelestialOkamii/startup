@@ -112,6 +112,7 @@ label {
     left: 25%;
     top: 18%;
     z-index: 11;
+    display: none;
 }
 
 #ball_cap_img {
@@ -119,6 +120,7 @@ label {
     left: 23%;
     top: 23%;
     z-index: 11;
+    display: none;
 }
 
 #book_img {
@@ -126,6 +128,7 @@ label {
     left: 35%;
     top: 35%;
     z-index: 11;
+    display: none;
 }
 
 #shopping_bag_img {
@@ -133,6 +136,7 @@ label {
     left: 33%;
     top: 35%;
     z-index: 11;
+    display: none;
 }
 
 #identification {
@@ -166,7 +170,7 @@ label {
     background-color: #5441cc;
     border-radius: 50px;
     border: 1% #130952;
-    width: 25vw;
+    width: 15vw;
     height: 3vh;
     border-color: #130952;
     border-style: solid;
