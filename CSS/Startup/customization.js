@@ -13,21 +13,16 @@ function get_option2() {
 
 
 function change_hat(hat) {
-     let hat_imgs = document.querySelectorAll('hats_imgs');
+     let hat_imgs = document.querySelectorAll('#hats_imgs');
      hat_imgs.forEach((img) => {
-        if (img.id === hat) {
-            document.getElementById(hat).style.opacity = 1;
-        }
-        else {
-            document.getElementById(img.id).style.opacity = 0;
-        }
+        img.style.opacity = (img.id === hat) ? 1 : 0;
     })
     
 }
 
 
 function change_object(object) {
-    let objs_imgs = document.querySelectorAll('objects_imgs');
+    let objs_imgs = document.querySelectorAll('#objects_imgs');
      objs_imgs.forEach((img) => {
         img.style.opacity = (img.id == object) ? 1 : 0;
     })
