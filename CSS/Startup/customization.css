@@ -112,7 +112,7 @@ label {
     left: 25%;
     top: 18%;
     z-index: 11;
-    display: none;
+    opacity: 0;
 }
 
 #ball_cap_img {
@@ -120,7 +120,7 @@ label {
     left: 23%;
     top: 23%;
     z-index: 11;
-    display: none;
+    opacity: 0;
 }
 
 #book_img {
@@ -128,7 +128,7 @@ label {
     left: 35%;
     top: 35%;
     z-index: 11;
-    display: none;
+    opacity: 0;
 }
 
 #shopping_bag_img {
@@ -136,7 +136,7 @@ label {
     left: 33%;
     top: 35%;
     z-index: 11;
-    display: none;
+    opacity: 0;
 }
 
 #identification {

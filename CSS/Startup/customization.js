@@ -16,10 +16,10 @@ function change_hat(hat) {
      let hat_imgs = document.querySelectorAll('hats_imgs');
      hat_imgs.forEach((img) => {
         if (img.id === hat) {
-            document.getElementById(hat).style.display = "flex";
+            document.getElementById(hat).style.opacity = 1;
         }
         else {
-            document.getElementById(img.id).style.visibility="hidden";
+            document.getElementById(img.id).style.opacity = 0;
         }
     })
     
@@ -29,14 +29,9 @@ function change_hat(hat) {
 function change_object(object) {
     let objs_imgs = document.querySelectorAll('objects_imgs');
      objs_imgs.forEach((img) => {
-        if (img.id === object) {
-            document.getElementById(object).style.visibility="visible";
-        }
-        else {
-            document.getElementById(img.id).style.visibility="hidden";
-        }
+        img.style.opacity = (img.id == object) ? 1 : 0;
     })
 }
 
 document.getElementById("Hats").onchange = get_option1;
-document.getElementById("Objects").onchange = get_option1;
+document.getElementById("Objects").onchange = get_option2;
