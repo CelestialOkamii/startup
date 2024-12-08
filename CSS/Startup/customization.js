@@ -16,9 +16,7 @@ function get_option2() {
 
 //Function to make things disappear and appear
 function change_hat(hat) {
-    console.log(`${hat}`)
-     let hat_imgs = document.getElementById(hat);
-     console.log(`${hat_imgs}`)
+     let hat_imgs = document.querySelectorAll('.hat_imgs');
      hat_imgs.forEach((img) => {
         console.log(`IMG: ID = ${img.id}`)
         console.log(`OPACITY = ${img.style.opacity}`)
@@ -29,7 +27,7 @@ function change_hat(hat) {
 
 //Function to make things disappear and appear
 function change_object(object) {
-    let objs_imgs = document.querySelectorAll('.objects_imgs img');
+    let objs_imgs = document.querySelectorAll('.object_imgs');
      objs_imgs.forEach((img) => {
         img.style.opacity = (object === 'none') ? 0 : (img.id === object ? 1 : 0);
     })
