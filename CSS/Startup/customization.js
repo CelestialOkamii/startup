@@ -18,16 +18,13 @@ function get_option2() {
 function change_hat(hat) {
      let hat_imgs = document.querySelectorAll('.hat_imgs');
      hat_imgs.forEach((img) => {
-        console.log(`IMG: ID = ${img.id}`)
-        console.log(`OPACITY = ${img.style.opacity}`)
         let opacity_after = img.style.opacity = (hat === 'none') ? 0 : (img.id === hat ? 1 : 0);
-        console.log(`${img.id} HAS OPACITY ${opacity_after}`)
     })
 }
 
 //Function to make things disappear and appear
 function change_object(object) {
-    let objs_imgs = document.querySelectorAll('.object_imgs');
+    let objs_imgs = document.querySelectorAll('.object_images');
      objs_imgs.forEach((img) => {
         img.style.opacity = (object === 'none') ? 0 : (img.id === object ? 1 : 0);
     })
