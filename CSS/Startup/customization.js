@@ -1,9 +1,6 @@
 function get_option1() {
     let selected = document.querySelector('#Hats'); 
-    console.log(`${selected}`)
     let selected_value = selected.options[selected.selectedIndex].value;
-    console.log(`${selected_value}`)
-    console.log(selected.selectedIndex)
     change_hat(selected_value); 
 }
 
