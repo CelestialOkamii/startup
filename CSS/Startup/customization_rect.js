@@ -1,6 +1,6 @@
 import React, { useEffect , useState } from 'react';
 
-function drop_down_menus ({items, value, onchange}) {
+function hat_drop_down_menu () {
     const [value, chosen_option] = useState("None")
     const change = (event) => {
         chosen_option(event.target.value)
@@ -10,24 +10,26 @@ function drop_down_menus ({items, value, onchange}) {
             <select onChange={change} value= {value}>
                 <option value = "none">None</option>
                 <option value = "party_hat">Party Hat</option>
-                <option value = "ball_cap">Ball Cap</optoin>
+                <option value = "ball_cap">Ball Cap</option>
             </select>
         </div>
     );
 }
-export default drop_down_menus;
+export default hat_drop_down_menu;
 
-function make_visible_and_invisible(drop_down, thing, thing_img) {
-    function get_option1() {
-        let selected = document.querySelector(`#${thing}`); 
-        let selected_value = selected.options[selected.selectedIndex].value;
-        change_hat(selected_value); 
+function object_drop_down_menu () {
+    const [value, chosen_option] = useState("None")
+    const change = (event) => {
+        chosen_option(event.target.value)
     }
-    function change_hat(thing) {
-        let hat_imgs = document.querySelectorAll(thing_img);
-        hat_imgs.forEach((img) => {
-           let opacity_after = img.style.opacity = (thing === 'none') ? 0 : (img.id === thing ? 1 : 0);
-       })
-   }
-   document.getElementById(drop_down).onchange = get_option1;
+    return (
+        <div>
+            <select onChange={change} value= {value}>
+                <option value = "none">None</option>
+                <option value = "book">Book</option>
+                <option value = "shopping_bag">Shopping Bag</option>
+            </select>
+        </div>
+    );
 }
+export default object_drop_down_menu;
