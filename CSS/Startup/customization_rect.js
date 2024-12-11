@@ -13,9 +13,13 @@ function drop_down_menus ({items, value, onchange}) {
     )
     return (
         <div>
-            <select onChange={()}
+            <select onChange={change} value= {value}>
+                <option value = "none">None</option>
+                <option value = "party_hat">Party Hat</option>
+                <optoin value = "ball_cap">Ball Cap</optoin>
+            </select>
         </div>
-    )
+    );
 }
 
 function make_visible_and_invisible(drop_down, thing, thing_img) {
