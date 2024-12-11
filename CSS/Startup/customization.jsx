@@ -11,8 +11,6 @@ function Drop_down_menus () {
         chosen_option2(event.target.value)
     };
 
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-
     return (
         <div>
             <div>
