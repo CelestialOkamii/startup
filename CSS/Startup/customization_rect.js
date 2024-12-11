@@ -1,8 +1,10 @@
 import React, { useEffect , useState } from 'react';
 
-export default function drop_down_menus ({items, value, onchange}) {
+function drop_down_menus ({items, value, onchange}) {
     const [value, chosen_option] = useState("None")
-
+    const change = (event) => {
+        chosen_option(event.targe.value)
+    }
     return (
         <div>
             <Dropdown  options= {["None", "Party Hat", "Ball Cap"]} />
@@ -15,8 +17,6 @@ export default function drop_down_menus ({items, value, onchange}) {
         </div>
     )
 }
-
-
 
 function make_visible_and_invisible(drop_down, thing, thing_img) {
     function get_option1() {
