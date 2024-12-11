@@ -3,24 +3,19 @@ import React, { useEffect , useState } from 'react';
 function drop_down_menus ({items, value, onchange}) {
     const [value, chosen_option] = useState("None")
     const change = (event) => {
-        chosen_option(event.targe.value)
+        chosen_option(event.target.value)
     }
-    return (
-        <div>
-            <Dropdown  options= {["None", "Party Hat", "Ball Cap"]} />
-            <Dropdown options= {["None", "Book", "shopping Bag"]} />
-        </div>
-    )
     return (
         <div>
             <select onChange={change} value= {value}>
                 <option value = "none">None</option>
                 <option value = "party_hat">Party Hat</option>
-                <optoin value = "ball_cap">Ball Cap</optoin>
+                <option value = "ball_cap">Ball Cap</optoin>
             </select>
         </div>
     );
 }
+export default drop_down_menus;
 
 function make_visible_and_invisible(drop_down, thing, thing_img) {
     function get_option1() {
