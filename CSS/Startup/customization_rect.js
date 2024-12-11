@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-function make_visible_and_invisible(thing, thing_img) {
+function drop_down_menus ({items, value, onchange}) {
+    return (
+        <div>
+            <Dropdown options= {["None", "Party Hat", "Ball Cap"]} />
+            <Dropdown options= {["None", "Book", "shopping Bag"]} />
+        </div>
+    )
+}
+
+function make_visible_and_invisible(drop_down, thing, thing_img) {
     function get_option1() {
         let selected = document.querySelector(`#${thing}`); 
         let selected_value = selected.options[selected.selectedIndex].value;
@@ -9,8 +18,8 @@ function make_visible_and_invisible(thing, thing_img) {
     function change_hat(thing) {
         let hat_imgs = document.querySelectorAll(thing_img);
         hat_imgs.forEach((img) => {
-           let opacity_after = img.style.opacity = (thing === 'none') ? 0 : (img.id === hat ? 1 : 0);
+           let opacity_after = img.style.opacity = (thing === 'none') ? 0 : (img.id === thing ? 1 : 0);
        })
    }
-   document.getElementById(thing).onchange = get_option1;
+   document.getElementById(drop_down).onchange = get_option1;
 }
