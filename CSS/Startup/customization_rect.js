@@ -1,35 +1,35 @@
 import React, { useEffect , useState } from 'react';
 
-function hat_drop_down_menu () {
-    const [value, chosen_option] = useState("None")
-    const change = (event) => {
-        chosen_option(event.target.value)
-    }
-    return (
-        <div>
-            <select onChange={change} value= {value}>
-                <option value = "none">None</option>
-                <option value = "party_hat">Party Hat</option>
-                <option value = "ball_cap">Ball Cap</option>
-            </select>
-        </div>
-    );
-}
-export default hat_drop_down_menu;
+function drop_down_menus () {
+    const [value1, chosen_option1] = useState("None")
+    const [value2, chosen_option2] = useState("None")
 
-function object_drop_down_menu () {
-    const [value, chosen_option] = useState("None")
-    const change = (event) => {
-        chosen_option(event.target.value)
-    }
+    const change1 = (event) => {
+        chosen_option1(event.target.value)
+    };
+    const change2 = (event) => {
+        chosen_option2(event.target.value)
+    };
+
     return (
         <div>
-            <select onChange={change} value= {value}>
-                <option value = "none">None</option>
-                <option value = "book">Book</option>
-                <option value = "shopping_bag">Shopping Bag</option>
-            </select>
+            <div>
+            <label for="Hats"><h4>Hats:</h4></label>
+                <select class = "my_drop_downs" id="Hats" name="varDropDown">
+                    <option value = "none"selected>None</option>
+                    <option value = "party_hat">Party Hat</option>
+                    <option value = "ball_cap">Ball Cap</option>
+                </select>
+            </div>
+            <div>
+                <label for="Objects"><h4>Objects:</h4></label>
+                <select  class = "my_drop_downs" id="Objects" name="varChoices">
+                    <option value = "none" selected>None</option>
+                    <option value = "book">Book</option>
+                    <option value = "shopping_bag">Shopping Bag</option>
+                </select>
+            </div>
         </div>
     );
 }
-export default object_drop_down_menu;
+export default drop_down_menus;
