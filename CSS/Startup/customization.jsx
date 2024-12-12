@@ -1,6 +1,9 @@
-import React, { useEffect , useState } from 'react';
+import React, { useState } from 'react';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 
-function Drop_down_menus () {
+
+function DropDownMenus () {
     const [value1, chosen_option1] = useState("none")
     const [value2, chosen_option2] = useState("none")
 
@@ -32,4 +35,8 @@ function Drop_down_menus () {
         </div>
     );
 }
-export default Drop_down_menus;
+export default DropDownMenus;
+
+const root_element = ReactDOM.createRoot(document.getElementById('root'));
+const root = createRoot(root_elemnt);
+root.render(<DropDownMenus />);
